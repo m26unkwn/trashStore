@@ -12,8 +12,8 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-const stoarag = firebase.Stoarag();
+const stoarage = firebase.Stoarag();
 
 const fireStore = firebase.FireStore();
 
-export { stoarag, fireStore };
+export { stoarage, fireStore };

@@ -33,7 +33,7 @@ label input {
 }
 .btn:hover {
   background: rgb(93, 241, 100);
-  border: 5px solid rgb(45, 97, 238);
+  border: 5px solid rgb(255, 146, 146);
   border-radius: 4px;
 }
 .error {

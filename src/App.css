@@ -4,6 +4,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .App {
   max-width: 960px;
@@ -35,9 +37,7 @@ label input {
   background: rgb(93, 241, 100);
 }
 .btn:hover {
-  background: rgb(255, 146, 146);
-  border: 5px solid rgb(255, 146, 146);
-  border-radius: 4px;
+  transform: scale("2px");
 }
 .error {
   margin: 1rem;
@@ -67,7 +67,7 @@ label input {
   padding: 50% 0;
   position: relative;
   opacity: 0.8;
-  border: 5px solid rgb(255, 146, 146);
+  border: 5px solid rgb(0, 0, 0);
   border-radius: 4px;
 }
 .img-wrap img {

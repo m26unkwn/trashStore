@@ -9,6 +9,7 @@ export const Title = () => {
             textAlign: "center",
 
             padding: "0.75rem",
+            color: "#2531e6db",
           }}>
           Trash Store 🚮
         </h1>
@@ -17,8 +18,8 @@ export const Title = () => {
       <div
         className='title'
         style={{ textAlign: "center", margin: "1rem 0", padding: "1rem" }}>
-        <h3>Store whatever you want 🤪 </h3>
-        <p style={{ marginTop: "1rem" }}>Trash for everyone</p>
+        <h3>Store whatever you want except explicit 🤪 </h3>
+        <p style={{ marginTop: "1rem" }}>Trash for everyone by everyone</p>
       </div>
     </>
   );

@@ -3,10 +3,15 @@ import React from "react";
 export const Title = () => {
   return (
     <>
-      <h1>Trash Store</h1>
+      <div className='heading'>
+        <h1 style={{ textAlign: "center", color: "red", padding: "0.75rem" }}>
+          Trash Store
+        </h1>
+      </div>
+
       <div className='title'>
-        <h2>Store your Pictures</h2>
-        <p>Everyone Can store Trash Here</p>
+        <h2>Store your Trash</h2>
+        <p>Trash for everyone</p>
       </div>
     </>
   );

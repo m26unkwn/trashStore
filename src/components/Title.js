@@ -4,14 +4,21 @@ export const Title = () => {
   return (
     <>
       <div className='heading'>
-        <h1 style={{ textAlign: "center", color: "red", padding: "0.75rem" }}>
-          Trash Store
+        <h1
+          style={{
+            textAlign: "center",
+
+            padding: "0.75rem",
+          }}>
+          Trash Store 🚮
         </h1>
       </div>
 
-      <div className='title'>
-        <h2>Store your Trash</h2>
-        <p>Trash for everyone</p>
+      <div
+        className='title'
+        style={{ textAlign: "center", margin: "1rem 0", padding: "1rem" }}>
+        <h3>Store whatever you want 🤪 </h3>
+        <p style={{ marginTop: "1rem" }}>Trash for everyone</p>
       </div>
     </>
   );

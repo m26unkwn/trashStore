@@ -36,9 +36,7 @@ label input {
   cursor: pointer;
   background: rgb(93, 241, 100);
 }
-.btn:hover {
-  transform: scale("2px");
-}
+
 .error {
   margin: 1rem;
   font-weight: 600;
